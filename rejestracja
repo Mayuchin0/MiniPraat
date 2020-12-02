@@ -1,0 +1,15 @@
+########### REJESTRACJA DZWIEKU ###################
+
+recorder = audiorecorder(44100, 16, 1);
+
+disp('Start speaking.');
+
+record(recorder);
+pause(3);
+stop(recorder);
+
+disp('End of Recording.');
+
+y = getaudiodata(recorder);
+
+plot(y)
