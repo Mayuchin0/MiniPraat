@@ -1,0 +1,2 @@
+# MiniPraat
+Projekt na Matlab
